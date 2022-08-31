@@ -1,0 +1,17 @@
+.filmGallery {
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    div {
+      width: calc(20% - 4px);
+      margin: 2px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
